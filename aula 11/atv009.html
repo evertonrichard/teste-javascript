@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de identidade</title>
+</head>
+<body>
+    <h1>Sistema de Identidade</h1>
+    <input type="text" name="txta" id="txta">
+    <input type="button" value="verificar" onclick="identidade()">
+    <div id="res">
+
+
+    </div>
+    <script>
+        function identidade() {
+            var txta = window.document.querySelector('input#txta')
+            var res = window.document.querySelector('div#res')
+            var vel = Text(txta.Text)
+            res.innerHTML = `sua identidade é ${vel}`
+            resp.innerHTML == `voce é <strong>estrangeiro!</strong`
+                if (vel == 'brasil'){
+                resp.innerHTML == '<p>voce é brasileiro!<p/>'
+        } else {
+            '<p> voce é estrangeiro!</p>'
+
+        }
+
+        }
+        
+        
+    </script>
+    
+</body>
+</html>
