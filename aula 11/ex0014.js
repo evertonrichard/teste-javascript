@@ -1,4 +1,4 @@
-var idade = 22
+var idade = 25
 console.log (`voce tem ${idade} Anos!`)
 if ( idade < 18){
     console.log ('menor de idade')
